@@ -1,0 +1,39 @@
+.flex-column{
+    flex-direction: column;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .scrollll{
+    overflow-x: scroll;
+    max-width: 100%;
+  }
+tr{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: rgba(0, 128, 0, 0.264);
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-width: 100%;
+}
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    
+  }
+  .edit{
+    border-radius: 2px;
+    border: none;
+    margin-left: 2px;
+  }
+ 
+.delete{
+    border-radius: 2px;
+    border: none;
+    color: grey;
+}
+.delete
+  th {
+    background-color: #f2f2f2;
+  }
